@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 *, button, input {
   font-family: -apple-system, Ubuntu, Arial, sans-serif;
 }
 
-*, li {
-  list-style: none;
-} 
+button:hover {
+  cursor: pointer;
+}
